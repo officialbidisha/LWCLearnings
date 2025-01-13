@@ -1,5 +1,5 @@
 import { LightningElement, wire } from 'lwc';
-import getHighReenueAccountRecords from '@salesforce/apex/AccountController.getHighRevenueAccountRecords'
+import getHighReenueAccountRecords from '@salesforce/apex/AccountController.getHighRevenueAccountRecords';
 
 export default class HighRevenenueAccount extends LightningElement {
     accountsDisplay = [];

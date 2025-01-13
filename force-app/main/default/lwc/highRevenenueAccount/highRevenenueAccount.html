@@ -1,0 +1,8 @@
+<template>
+    <template for:each={accountsDisplay} for:item="account">
+        <lightning-card key={account.id}>
+            {account.Name}
+            {account.AnnualRevenue}
+        </lightning-card>
+    </template>
+</template>
